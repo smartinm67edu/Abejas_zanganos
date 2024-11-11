@@ -8,12 +8,12 @@
 /* Estilos generales del cuerpo */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f1e5b2; /* Fondo beige claro */
+    background-color: #f1e5b2; 
 }
 
 /* Logo */
 #logo img {
-    width: 100%; /* Imagen del logo ocupa el 100% de su contenedor */
+    width: 100%;
 }
 
 #logo {
@@ -31,7 +31,7 @@ body {
 
 /* Encabezado */
 header {
-    background-color: #f2c041; /* Amarillo para el encabezado */
+    background-color: #f2c041; 
     color: white;
     display: flex;
     justify-content: space-around;
@@ -42,7 +42,7 @@ header {
 
 /* Botones del encabezado */
 .headerText {
-    background-color: #219330; /* Verde */
+    background-color: #219330; 
     display: flex;
     align-items: center;
     padding: 2vh;
@@ -61,7 +61,7 @@ header {
 }
 
 .headerText button:hover {
-    background-color: rgb(6, 128, 61); /* Verde oscuro */
+    background-color: rgb(6, 128, 61); 
 }
 
 /* Barra de búsqueda */
@@ -75,7 +75,7 @@ header {
 }
 
 .search input {
-    flex: 1; /* Toma todo el espacio disponible */
+    flex: 1; 
     padding: 10px;
     border: none;
     border-radius: 20px;
@@ -200,7 +200,7 @@ header {
 }
 
 .pack-productos {
-    width: 40%;
+    width: 60%;
     border-radius: 10px;
     margin: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
