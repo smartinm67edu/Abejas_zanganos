@@ -31,7 +31,7 @@ body {
 
 /* Encabezado */
 header {
-    background-color: #f2c041; /* Amarillo para el encabezado */
+    background-color: #f2c041;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -42,7 +42,7 @@ header {
 
 /* Botones del encabezado */
 .headerText {
-    background-color: #219330; /* Verde */
+    background-color: #219330; 
     display: flex;
     align-items: center;
     padding: 2vh;
@@ -61,7 +61,7 @@ header {
 }
 
 .headerText button:hover {
-    background-color: rgb(6, 128, 61); /* Verde oscuro */
+    background-color: rgb(6, 128, 61); 
 }
 
 /* Barra de búsqueda */
@@ -75,7 +75,7 @@ header {
 }
 
 .search input {
-    flex: 1; /* Toma todo el espacio disponible */
+    flex: 1; 
     padding: 10px;
     border: none;
     border-radius: 20px;

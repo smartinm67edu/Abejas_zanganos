@@ -8,12 +8,12 @@
 /* Estilos generales del cuerpo */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f1e5b2; /* Fondo beige claro */
+    background-color: #f1e5b2; 
 }
 
 /* Logo */
 #logo img {
-    width: 100%; /* Imagen del logo ocupa el 100% de su contenedor */
+    width: 100%; 
 }
 
 #logo {
@@ -31,7 +31,7 @@ body {
 
 /* Encabezado */
 header {
-    background-color: #f2c041; /* Amarillo para el encabezado */
+    background-color: #f2c041; 
     color: white;
     display: flex;
     justify-content: space-around;
@@ -42,7 +42,7 @@ header {
 
 /* Botones del encabezado */
 .headerText {
-    background-color: #219330; /* Verde */
+    background-color: #219330; 
     display: flex;
     align-items: center;
     padding: 2vh;
@@ -61,7 +61,7 @@ header {
 }
 
 .headerText button:hover {
-    background-color: rgb(6, 128, 61); /* Verde oscuro */
+    background-color: rgb(6, 128, 61); 
 }
 
 /* Barra de búsqueda */
@@ -75,7 +75,7 @@ header {
 }
 
 .search input {
-    flex: 1; /* Toma todo el espacio disponible */
+    flex: 1; 
     padding: 10px;
     border: none;
     border-radius: 20px;
@@ -103,64 +103,64 @@ header {
 /* Estilo para los títulos principales */
 .post-content h1 {
     font-size: 2.5rem;
-    color: #333333; /* Color oscuro para el texto */
+    color: #333333;
     margin-bottom: 1rem;
-    text-align: center; /* Centrado para títulos principales */
+    text-align: center; 
 }
 
 /* Estilo para los subtítulos */
 .post-content h2 {
     font-size: 2rem;
-    color: #555555; /* Color intermedio */
+    color: #555555;
     margin-bottom: 1rem;
 }
 
 /* Fecha de publicación */
 .post-date {
     font-size: 0.9rem;
-    color: #666666; /* Gris suave */
+    color: #666666; 
     text-align: right;
     margin-bottom: 1rem;
-    font-style: italic; /* Estilo cursivo */
+    font-style: italic; 
 }
 
 /* Contenedor principal del post */
 .post-content {
-    background-color: #ffffff; /* Fondo blanco */
+    background-color: #ffffff; 
     padding: 2rem;
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
-    width: 90%; /* Ancho ajustado */
-    text-align: justify; /* Texto justificado */
+    width: 90%;
+    text-align: justify;
 }
 
 /* Estilo para las imágenes dentro del contenido */
 .post-image {
     width: 40%;
-    border-radius: 10px; /* Bordes redondeados */
-    margin: 1rem auto; /* Margen superior/inferior de 1rem y centrado horizontal */
-    display: block; /* Convierte la imagen en un elemento de bloque */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve */
+    border-radius: 10px;
+    margin: 1rem auto; 
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 
 /* Listas dentro del contenido */
 .post-content ul {
     margin: 1rem 0;
-    padding-left: 20px; /* Sangría */
-    list-style-type: disc; /* Estilo de viñetas */
+    padding-left: 20px; 
+    list-style-type: disc; 
 }
 
 .post-content ul li {
     margin-bottom: 0.5rem;
-    color: #555555; /* Color de texto */
-    font-size: 1rem; /* Tamaño del texto */
+    color: #555555; 
+    font-size: 1rem; 
 }
 
 /* Botones dentro de los posts */
 .post-content button {
-    background-color: #219330; /* Verde */
+    background-color: #219330; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -169,34 +169,34 @@ header {
     font-size: 1rem;
     margin-top: 1rem;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    display: inline-block; /* Botón alineado */
+    display: inline-block; 
     text-align: center;
 }
 
 .post-content button:hover {
-    background-color: #1a7f26; /* Verde más oscuro */
-    transform: scale(1.05); /* Efecto de zoom */
+    background-color: #1a7f26;
+    transform: scale(1.05);
 }
 
 /* Estilo para los párrafos */
 .post-content p {
     font-size: 1.1rem;
-    line-height: 1.8; /* Mayor separación entre líneas */
-    color: #444444; /* Gris oscuro */
-    margin-bottom: 1.5rem; /* Espaciado entre párrafos */
+    line-height: 1.8; 
+    color: #444444; 
+    margin-bottom: 1.5rem;
 }
 
 /* Estilo para las conclusiones */
 .post-content h3 {
     font-size: 1.8rem;
-    color: #444444; /* Texto más oscuro */
+    color: #444444;
     margin-bottom: 1rem;
 }
 
 /* Margen adicional en el main */
 main {
-    margin-top: 2rem; /* Espacio adicional desde el encabezado */
-    margin-bottom: 6rem; /* Separación del pie de página */
+    margin-top: 2rem;
+    margin-bottom: 6rem; 
 }
 
 
