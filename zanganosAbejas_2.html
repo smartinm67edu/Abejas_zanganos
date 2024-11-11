@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Ejemplo - Maquetación por Cajas</title>
+    <link rel="stylesheet" href="zanganosAbejas_2.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <!-- Encabezado -->
+        <header>
+            <p id="logo"><img src="logoAZ.png" alt="Logo"></p>
+            <div class="headerText">
+                <button onclick="window.location.href='index_abejas.html';">
+                    <h1>Abejas y zánganos</h1>
+                </button>
+                <button onclick="window.location.href='zanganosAbejas_1.html';">
+                    <h2>Productos</h2>
+                </button>
+                <button onclick="window.location.href='zanganosAbejas_2.html';">
+                    <h2>Blog</h2>
+                </button>
+                <button onclick="window.location.href='zanganosAbejas_3.html';">
+                    <h2>Inicio de sesión</h2>
+                </button>
+            </div>
+            <div class="search">
+                <form id="searchForm">
+                    <input type="text" id="searchInput" placeholder="Buscar productos..." />
+                    <button type="submit">Buscar</button>
+                </form>
+            </div>
+
+        </header>
+        <!-- Previsualizacion del blog-->
+        <div class="blog-container">
+            <!-- Post 1 -->
+            <article class="blog-post">
+                <img src="beneficios_miel.jpg" alt="Beneficios de la miel">
+                <h2>Beneficios de la Miel para la Salud</h2>
+                <p>Descubre cómo la miel puede mejorar tu salud gracias a sus propiedades antioxidantes y antimicrobianas.</p>
+                <button onclick="window.location.href='post_1.html';">Leer más</button>
+            </article>
+
+            <!-- Post 2 -->
+            <article class="blog-post">
+                <img src="produccion_miel.jpg" alt="Producción de miel">
+                <h2>Cómo se Produce la Miel</h2>
+                <p>Conoce el fascinante proceso en el que las abejas transforman el néctar en miel dentro de la colmena.</p>
+                <button onclick="window.location.href='post_2.html';">Leer más</button>
+            </article>
+
+            <!-- Post 3 -->
+            <article class="blog-post">
+                <img src="tipos_miel.jpeg" alt="Tipos de miel">
+                <h2>Los Diferentes Tipos de Miel</h2>
+                <p>Explora las variedades de miel y descubre cuál es la mejor opción para tus necesidades.</p>
+                <button onclick="window.location.href='post_3.html';">Leer más</button>
+            </article>
+        </div>
+        
+
+        <footer>
+            <div class="social-buttons">
+                <button class="social-button facebook">Facebook</button>
+                <button class="social-button twitter">Twitter</button>
+                <button class="social-button instagram">Instagram</button>
+                <button class="social-button linkedin">LinkedIn</button>
+            </div>   
+            <p>© 2024 Mi Página Web. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
