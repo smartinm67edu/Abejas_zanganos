@@ -99,6 +99,7 @@ header {
 }
 /* Estilo para la sección "Conócenos" */
 #conocenos {
+    margin-top: 30px;
     background-color: #fff7e6;
     padding: 2rem 1.5rem;
     font-family: Arial, sans-serif;
